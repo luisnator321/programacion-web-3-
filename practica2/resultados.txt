@@ -1,0 +1,24 @@
+Resultados de las pruebas:
+
+Resultados de conexion-basica.js:
+Connected to MySQL Database!
+[
+  { id: 1, ci: '1234', nombre: 'pepito', apellidos: 'calisaya' },
+  { id: 2, ci: '5678', nombre: 'luis', apellidos: 'gomez' }
+]
+conexion basica: 20.318ms
+
+Resultados de conexion-promesas.js:
+Connected to MySQL Database!
+Query Result: [
+  { id: 1, ci: '1234', nombre: 'pepito', apellidos: 'calisaya' },
+  { id: 2, ci: '5678', nombre: 'luis', apellidos: 'gomez' }
+]
+
+Resultados de conexion-pooling.js:
+[
+  { id: 1, ci: '1234', nombre: 'pepito', apellidos: 'calisaya' },
+  { id: 2, ci: '5678', nombre: 'luis', apellidos: 'gomez' }
+]
+conexion pooling: 39.994ms
+
